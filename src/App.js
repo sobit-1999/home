@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import HomeCard2 from "./components/content/HomeCard2";
+import ImageCard from "./components/content/ImageCard";
+import LastProperty from "./components/content/LastProperty";
+import TariffsServices from "./components/content/TariffsServices";
+import Header from "./components/header/Header";
+import img from "./img/Grodna29 1.svg";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header />
+      <ImageCard />
+      <HomeCard2 />
+      <div className="App">
+      <LastProperty />
+      <TariffsServices />
+
+      </div>
+    </>
   );
 }
 
