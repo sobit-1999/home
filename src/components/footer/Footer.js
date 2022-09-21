@@ -10,12 +10,12 @@ import {
   Call,
   Facebook,
   Instagram,
-  WaterSharp,
+  WhatsApp,
   YouTube,
 } from "@mui/icons-material";
 
 export default function Footer() {
-  const IconsLink = [WaterSharp, Instagram, YouTube, Facebook];
+  const IconsLink = [WhatsApp, Instagram, YouTube, Facebook];
   return (
     <Box
       sx={{
