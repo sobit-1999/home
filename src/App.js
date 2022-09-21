@@ -4,7 +4,6 @@ import AboutCompany from "./components/content/AboutCompany";
 import BestOffers from "./components/content/BestOffers";
 import Certificates from "./components/content/Certificates";
 import Consultation from "./components/content/Consultation";
-import Geolocation from "./components/content/Geolocation";
 import HomeCard2 from "./components/content/HomeCard2";
 import ImageCard from "./components/content/ImageCard";
 import InstagramVideos from "./components/content/InstagramVideos";
@@ -18,7 +17,6 @@ import Header from "./components/header/Header";
 function App() {
   return (
     <>
-    <Geolocation/>
       <Header />
       <ImageCard />
       <HomeCard2 />
