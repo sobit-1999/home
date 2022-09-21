@@ -13,7 +13,6 @@
 }
 a {
   color: #fff;
-  background-color: rgb(79, 83, 103);
 }
 .search-input {
   /* border: none; */
@@ -114,4 +113,61 @@ a {
     font-size: 17px;
     width: 100px;
     border: none;
+    background-color: rgb(48, 57, 73);
+}
+
+.smile{
+  margin-top: 30px;
+  margin-left: 4px;
+}
+
+.company-specialists-card-img{
+  position: relative;
+  width: 100%;
+  opacity: 1;
+  background-color: rgba(41, 41, 63, 0.189);
+}
+
+.specialists-carousel-name{
+  margin: 40px 0;
+  font-weight: 450;
+  color: #fff;
+}
+
+.carousel-back{
+  position: absolute;
+  left: 180px;
+  display: block;
+  margin-top: 120px;
+  border-radius: 50%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(116, 124, 211);
+  border: none;
+  color: #fff;
+  
+}
+.carousel-next{
+  position: absolute;
+  right: 180px;
+  margin-top: -150px;
+  border-radius: 50%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(116, 124, 211);
+  border: none;
+  color: #fff;
+}
+.video-card{
+  height: 290px;
+  border-radius: 10px;
+  
+}
+.map-container{
+  width: 50%;
+  height: 500px;
 }
